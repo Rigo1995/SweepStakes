@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepTakes
 {
-    public class StackManager : IManager
+    public class SweepstakesQueueManager 
     {
-      
     }
 }

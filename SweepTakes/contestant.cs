@@ -6,30 +6,29 @@ using System.Threading.Tasks;
 
 namespace SweepTakes
 {
-    class contestant
+    public class Contestant
     {
+        private string firstName;
+        private string lastName;
+        private string email;
+        private string adress;
+        private string registrationNumber;
 
-        public class Contestant
-        {
-            private string firstName;
-            private string lastName;
-            private string email;
-            private string adress;
-            private string registrationNumber;
+    
+           
 
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-            public string Email { get; set; }
-            public string Adress { get; set; }
-            public string RegistrationNumber { get; set; }
-
-            public void DisplayFirstLastName()
-            {
-                Dictionary<string, string> FullName = new Dictionary<string, string>();
-                
-            }
+            
 
 
-        }
+            //public string FirstName { get firstName, set firstName }
+            //public string LastName { get; set; }
+            //public string Email { get; set; }
+            //public string Adress { get; set; }
+            //public string RegistrationNumber { get; set; }
+
+
+
+
+        
     }
 }

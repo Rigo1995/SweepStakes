@@ -42,10 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="contestant.cs" />
-    <Compile Include="Manager.cs" />
-    <Compile Include="QueueManager.cs" />
-    <Compile Include="StackManager.cs" />
+    <Compile Include="Contestant.cs" />
+    <Compile Include="ISweepstakesManager.cs" />
+    <Compile Include="SweepStakes.cs" />
+    <Compile Include="SweepstakesQueueManager.cs" />
+    <Compile Include="SweepstakesStackManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
